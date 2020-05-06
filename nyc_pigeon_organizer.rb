@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
   end
   
   
-  name_hash.each |pigeon_name, pigeon_characteristics| do 
+  name_hash.each do |pigeon_name, pigeon_characteristics| 
     data.each do |pigeon_attribute, attribute_hash|
       attribute_hash.each do |sub_attribute, pigeon_name_array|
         binding.pry
