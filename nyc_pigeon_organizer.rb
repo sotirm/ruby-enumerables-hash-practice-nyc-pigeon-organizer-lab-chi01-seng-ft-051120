@@ -1,6 +1,10 @@
 require "pry"
 
 def nyc_pigeon_organizer(data)
-  binding.pry
-  data.each do |pigeon_attributes|
+  data.each do |pigeon_attribute, attribute_hash|
+    binding.pry
+
+    
+    
+  end
 end
