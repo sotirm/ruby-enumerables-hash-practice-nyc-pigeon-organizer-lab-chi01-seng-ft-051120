@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
     data.each do |pigeon_attribute, attribute_hash|
       attribute_hash.each do |sub_attribute, pigeon_name_array|
         binding.pry
-        pigeon_name_array.any?("Theo")
+        pigeon_name_array.any?(pigeon_name)
       end
     end
   end
